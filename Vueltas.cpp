@@ -59,7 +59,7 @@ int main() {
 
     int arr[5]; // [_, _, _, _ ,_] indexado en 0
     int matriz[5][5];
-   string cadena; // char[]
+    string cadena; // char[]
     */
    cin >> n >> m;
    
