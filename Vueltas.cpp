@@ -1,3 +1,12 @@
+/*
+Link del problema: https://omegaup.com/arena/problem/L-OMI2010-Vueltas/#problems
+Idea:
+    - Leer el tablero
+    - Contar las operaciones
+    - Aplicar h % 2 operaciones horizontales
+    - Aplicar v % 2 operaciones verticales
+    - Imprimir el resultado
+*/
 //#include <bits/stdc++.h>
 #include <iostream>
 #include <string>
@@ -97,10 +106,3 @@ int main() {
 
     return 0;
 }
-
-/*
-Idea:
-    - Leer el tablero
-    - Contar las operaciones
-    - Aplicar h % 2 operaciones horizontal
-*/
