@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
 using namespace std;
 
 struct par {
@@ -7,7 +9,7 @@ struct par {
 };
 
 // Sobrecargamos el operador < para que sort sepa como ordenar
-bool operator<(par& a, par& b) {
+bool operator <(const par& a, const par& b) {
     if (a.inicio < b.inicio) return true;
     if (a.inicio > b.inicio) return false;
     if (a.fin < b.fin) {
